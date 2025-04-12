@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="against the clock style.css">
+</head>
+<body>
+    <div id = "headerDiv">
+        <button id = "startButton">Start</button>
+        <h1 id = "header">Against The Clock</h1>       
+        <button id = "endButton">End Game</button> 
+    </div>
+
+    <div id = "timeDiv" class = "timeDiv">
+        <input id = "timeInput" type="number" placeholder="Enter time in seconds before starting game. Default is 60" min = 1>
+        <input id = "scoreInput" type="number" placeholder="Enter the the amount of questions you want. Default is 5" min = 1>
+    </div>
+
+    <div class="background">
+        <span class="ball"></span>
+        <span class="ball"></span>
+        <span class="ball"></span>
+        <span class="ball"></span>
+        <span class="ball"></span>
+        <span class="ball"></span>
+        <span class="ball"></span>
+        <span class="ball"></span>
+        <span class="ball"></span>
+        <span class="ball"></span>
+      </div>
+
+    <div id = "playerDiv">
+        <div id = "p1">
+            <p id="player1">Player 1</p>
+            <p id="timer1"></p>
+            <p id="score1">Score: 0</p>
+        </div>
+
+        <div id = "questionDiv">
+            <p id = "question">testing</p> 
+            <button id = "nextButton">Next Players Question</button>
+        </div>
+
+        <div id = "p2">
+            <p id="player2">Player 2</p>
+            <p id="timer2"></p>
+            <p id="score2">Score: 0</p>
+        </div>
+    </div>
+    
+    <div id = "answersDiv">
+        <button id = "button1" class = "answer"></button>
+        <button id = "button2" class = "answer"></button>
+        <button id = "button3" class = "answer"></button>
+        <button id = "button4" class = "answer"></button>
+    </div>
+
+    <div id = "cashDiv">
+        <p id="cash"></p>
+    </div>
+
+
+</body>
+</html>
+
+<script src = "against the clock script.js"></script>
